@@ -64,4 +64,3 @@ resources:
           - AttributeName: slug
             KeyType: HASH
         ProvisionedThroughput: ${self:custom.${self:custom.stage}DynamoCapacity}
-        TableName: "${self:custom.stage}-shortened-urls"
